@@ -1,0 +1,73 @@
+body {
+	margin: 0px;
+	font-family: Montserrat;
+	color: #ffffff;
+	background-color: #212121
+}
+
+.banner {
+	background-image: url("images/piano.jpg");
+	background-size: cover;
+  	background-position: center;
+  	padding: 220px 0;
+  	text-align: center;
+}
+
+.banner h1 {
+	font-size: 100px;
+	margin: 0px;
+}
+.banner p{
+	margin: 20px 0px 40px;
+	font-size: 20px;
+}
+.button {
+	background-color: #ff9400;
+	transition: .5s;
+	padding: 20px 25px;
+	color: white;
+	border-radius: 6px;
+	text-decoration: none;
+	font-size: 40px;
+}
+
+.button:hover {
+	background-color: #ad6500;
+}
+
+.cards {
+	text-align: center;
+	align-content: center;
+	margin-top: 40px;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 350px 350px 350px;
+	grid-column-gap: 40px;
+	padding: 20px;
+	justify-content: center;
+}
+
+.grid img{
+	width: 300px;
+	border-radius: 4px;
+	height: 220px;
+}
+
+h2 {
+	font-size: 30px;
+}
+.cardbox{
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	border-radius: 4px;
+	padding: 20px;
+	background-color: #454545;
+	box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+.footer {
+	padding: 15px;
+	background-color: #454545;
+	margin-top: 40px;
+}
